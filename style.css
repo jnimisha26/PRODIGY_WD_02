@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    background-color: rgb(91, 91, 226);
+    padding: 11px;
+    margin: 7px;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 16%;
+}
+.timer{
+    padding: 10px;
+    margin: 25px;
+}
+
+.stopwatch{
+    position: fixed;
+    top: 40px;
+}
+
+.controller{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+button {
+    margin: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 22px;
+    width: 122px;
+    border-radius: 23px;
+    font-size: 21px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.lapSection{
+    position: fixed;
+    right: 45%;
+    bottom: 11%;
+    font-size: 10px;
+}
+
+.lap {
+    margin: 5px;
+    border: solid rgba(255, 255, 255, 0.39);
+    padding: 17px;
+    border-radius: 3px;
+    /* width: 70px; */
+    font-size: 26px;
+}
+
+.lapSec {
+    display: flex;
+    width: 32vw;
+    margin-top: 16px;
+    border: white 1px solid;
+    height: 50vh;
+    overflow-y: auto; 
+}
